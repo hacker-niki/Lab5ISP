@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             xmlns:viewModels="clr-namespace:Senko_253505.UI.ViewModels"
+             x:DataType="viewModels:AddOrUpdateCarViewModel"
+             Title="Add or update car"
+             x:Class="Senko_253505.UI.Pages.AddOrUpdateCarPage">
+    <ContentPage.Behaviors>
+        <toolkit:EventToCommandBehavior EventName="Loaded" Command="{Binding UpdateCompaniesListCommand }" />
+    </ContentPage.Behaviors>
+
+    <!-- <ContentPage.Resources> -->
+    <!--     <converters:ValueToBooleanConverter x:Key="IsNotNull"/> -->
+    <!-- </ContentPage.Resources> -->
+
+    <ContentPage.Content>
+
+        <StackLayout Margin="10" Spacing="15">
+            <VerticalStackLayout>
+            <Button Text="Pick a png image!" Command="{Binding SelectImageCommand}"/>
+            <!-- <Label Text="Successfully added" IsVisible="{Binding Image, Converter={StaticResource IsNotNull}}"/> -->
+            </VerticalStackLayout>
+            <VerticalStackLayout>
+                <Label Text="Model" />
+                <Entry Text="{Binding Request.Car.Characteristic.Model}" Placeholder="Title" />
+            </VerticalStackLayout>
+
+            <VerticalStackLayout>
+                <Label Text="Horse power" />
+                <Label Text="{ Binding Value, Source={ x:Reference Slider2},StringFormat='{0:F0}'}" />
+                <Slider x:Name="Slider2" Minimum="1" Maximum="1000"
+                        Value="{Binding Request.Car.Characteristic.Horsepower}" />
+            </VerticalStackLayout>
+
+            <VerticalStackLayout>
+                <Label Text="Год выпуска" />
+                <Label Text="{ Binding  Value, Source={ x:Reference Slider1},StringFormat='{0:F0}'}" />
+                <Slider x:Name="Slider1" Minimum="1900" Maximum="2025"
+                        Value="{Binding Request.Car.Characteristic.Year}" />
+            </VerticalStackLayout>
+
+            <VerticalStackLayout>
+                <DatePicker Date="{Binding Date}"></DatePicker>
+            </VerticalStackLayout>
+
+
+            <!-- <VerticalStackLayout> -->
+            <!--     <Label Text="Компания" /> -->
+            <!--     <Picker -->
+            <!--         ItemsSource="{Binding Companies}" -->
+            <!--         ItemDisplayBinding="{Binding Name }" -->
+            <!--         SelectedItem="{Binding SelectedCompany}"> -->
+            <!--     </Picker> -->
+            <!-- </VerticalStackLayout> -->
+
+            <Button Text="Save" Command="{Binding AddOrUpdateCarCommand}" />
+            <Label Text="{Binding ErrText}" />
+        </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>

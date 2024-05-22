@@ -1,0 +1,15 @@
+C:\Users\user\RiderProjects\Senko_253505\Senko_253505.Persistence\bin\Debug\net7.0\Senko_253505.Persistence.deps.json
+C:\Users\user\RiderProjects\Senko_253505\Senko_253505.Persistence\bin\Debug\net7.0\Senko_253505.Persistence.dll
+C:\Users\user\RiderProjects\Senko_253505\Senko_253505.Persistence\bin\Debug\net7.0\Senko_253505.Persistence.pdb
+C:\Users\user\RiderProjects\Senko_253505\Senko_253505.Persistence\bin\Debug\net7.0\Senko_253505.Domain.dll
+C:\Users\user\RiderProjects\Senko_253505\Senko_253505.Persistence\bin\Debug\net7.0\Senko_253505.Domain.pdb
+C:\Users\user\RiderProjects\Senko_253505\Senko_253505.Persistence\obj\Debug\net7.0\Senko_253505.Persistence.csproj.AssemblyReference.cache
+C:\Users\user\RiderProjects\Senko_253505\Senko_253505.Persistence\obj\Debug\net7.0\Senko_253505.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\RiderProjects\Senko_253505\Senko_253505.Persistence\obj\Debug\net7.0\Senko_253505.Persistence.AssemblyInfoInputs.cache
+C:\Users\user\RiderProjects\Senko_253505\Senko_253505.Persistence\obj\Debug\net7.0\Senko_253505.Persistence.AssemblyInfo.cs
+C:\Users\user\RiderProjects\Senko_253505\Senko_253505.Persistence\obj\Debug\net7.0\Senko_253505.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\user\RiderProjects\Senko_253505\Senko_253505.Persistence\obj\Debug\net7.0\Senko_253505.Persistence.csproj.CopyComplete
+C:\Users\user\RiderProjects\Senko_253505\Senko_253505.Persistence\obj\Debug\net7.0\Senko_253505.Persistence.dll
+C:\Users\user\RiderProjects\Senko_253505\Senko_253505.Persistence\obj\Debug\net7.0\refint\Senko_253505.Persistence.dll
+C:\Users\user\RiderProjects\Senko_253505\Senko_253505.Persistence\obj\Debug\net7.0\Senko_253505.Persistence.pdb
+C:\Users\user\RiderProjects\Senko_253505\Senko_253505.Persistence\obj\Debug\net7.0\ref\Senko_253505.Persistence.dll

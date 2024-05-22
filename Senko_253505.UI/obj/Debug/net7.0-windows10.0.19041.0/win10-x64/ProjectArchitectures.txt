@@ -1,0 +1,6 @@
+C:\Users\user\RiderProjects\Senko_253505\Senko_253505.Application\Senko_253505.Application.csproj;neutral
+C:\Users\user\RiderProjects\Senko_253505\Senko_253505.Domain\Senko_253505.Domain.csproj;neutral
+C:\Users\user\RiderProjects\Senko_253505\Senko_253505.Domain\Senko_253505.Domain.csproj;neutral
+C:\Users\user\RiderProjects\Senko_253505\Senko_253505.Domain\Senko_253505.Domain.csproj;neutral
+C:\Users\user\RiderProjects\Senko_253505\Senko_253505.Persistence\Senko_253505.Persistence.csproj;neutral
+C:\Users\user\RiderProjects\Senko_253505\Senko_253505.UI\Senko_253505.UI.csproj;x64

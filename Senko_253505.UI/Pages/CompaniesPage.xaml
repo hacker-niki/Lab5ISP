@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:models="clr-namespace:Senko_253505.UI.ViewModels"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             xmlns:entities="clr-namespace:Senko_253505.Domain.Entities;assembly=Senko_253505.Domain"
+             xmlns:valueConverters="clr-namespace:Senko_253505.UI.ValueConverters"
+             x:DataType="models:CompaniesViewModel"
+             x:Class="Senko_253505.UI.Pages.CompaniesPage">
+    <ContentPage.Behaviors>
+        <toolkit:EventToCommandBehavior EventName="Appearing"
+                                        Command="{Binding UpdateTransportCompanyListCommand}" />
+    </ContentPage.Behaviors>
+
+    <ContentPage.Resources>
+        <valueConverters:DateToColorConverter x:Key="DateToColor" />
+        <valueConverters:IdToImageConvertor x:Key="IdToImageSource"/>
+    </ContentPage.Resources>
+    <!-- -->
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Edit company" Command="{Binding UpdateTransportCompanyCommand}"></ToolbarItem>
+        <ToolbarItem Text="Delete company" Command="{Binding DeleteTransportCompanyCommand}"></ToolbarItem>
+        <ToolbarItem Text="Add company" Command="{Binding AddTransportCompanyCommand}"></ToolbarItem>
+        <ToolbarItem Text="Add car" Command="{Binding AddCarCommand}"></ToolbarItem>
+    </ContentPage.ToolbarItems>
+
+    <StackLayout Margin="10" Spacing="15">
+        <Label Text="{Binding ErrorText}" />
+
+        <Picker
+            x:Name="PCompany"
+            ItemsSource="{Binding TransportCompanies}"
+            ItemDisplayBinding="{Binding Name}"
+            SelectedItem="{Binding SelectedTransportCompany}">
+            <Picker.Behaviors>
+                <toolkit:EventToCommandBehavior
+                    EventName="SelectedIndexChanged"
+                    Command="{Binding UpdateCarsListCommand}"
+                    CommandParameter="{Binding Source={x:Reference PCompany}, Path=SelectedItem}" />
+            </Picker.Behaviors>
+        </Picker>
+
+
+        <Frame BackgroundColor="DarkSlateGray">
+            <VerticalStackLayout>
+                <HorizontalStackLayout Spacing="10" HorizontalOptions="Center">
+
+                    <Label Text="{Binding SelectedTransportCompany.Name, StringFormat='Название: {0}'}" />
+                </HorizontalStackLayout>
+
+                <HorizontalStackLayout Spacing="10" HorizontalOptions="Center">
+                    <Label Text="{Binding SelectedTransportCompany.Owner, StringFormat='Владелец: {0}'}" />
+                </HorizontalStackLayout>
+
+                <HorizontalStackLayout Spacing="10" HorizontalOptions="Center">
+                    <Label Text="{Binding CarsCount , StringFormat='Количество машин: {0}'}" />
+                </HorizontalStackLayout>
+
+            </VerticalStackLayout>
+        </Frame>
+
+        <CollectionView ItemsSource="{Binding Cars}" VerticalOptions="FillAndExpand">
+            <CollectionView.ItemTemplate>
+                <DataTemplate x:DataType="entities:Car">
+                    <Frame Margin="5" Padding="5"
+                           BackgroundColor="{Binding Date, Converter={StaticResource DateToColor}}">
+                        
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer
+                                Command="{Binding Source={RelativeSource AncestorType={x:Type models:CompaniesViewModel}},
+                                Path=ShowDetailsCommand}"
+                                CommandParameter="{Binding}"/>
+                        </Frame.GestureRecognizers>
+        
+                        <HorizontalStackLayout Spacing="3">
+
+                            <Frame Margin="5"
+                                   BorderColor="Black"
+                                   CornerRadius="50"
+                                   HeightRequest="110"
+                                   WidthRequest="110"
+                                   IsClippedToBounds="True"
+                                   HorizontalOptions="Center"
+                                   VerticalOptions="Center">    
+                                <Image
+                                    Aspect="AspectFill"
+                                    HeightRequest="70"
+                                    WidthRequest="70"
+                                Source="{Binding Id, Converter={StaticResource IdToImageSource}}"></Image>
+                            </Frame>
+                            <VerticalStackLayout VerticalOptions="Center" Spacing="15">
+                                <Label Text="{Binding Characteristic.Model}" />
+                                <Label Text="{Binding Characteristic.Horsepower, StringFormat='Мощность лс:{0}'}" />
+                                <Label Text="{Binding Characteristic.Year, StringFormat='Год выпуска:{0}'}" />
+                            </VerticalStackLayout>
+
+                        </HorizontalStackLayout>
+                    </Frame>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+    </StackLayout>
+</ContentPage>

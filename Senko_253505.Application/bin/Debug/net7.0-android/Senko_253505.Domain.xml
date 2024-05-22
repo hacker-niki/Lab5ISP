@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Senko_253505.Domain</name>
+    </assembly>
+    <members>
+        <member name="M:Senko_253505.Domain.Abstractions.IRepository`1.GetByIdAsync(System.Int32,System.Threading.CancellationToken,System.Linq.Expressions.Expression{System.Func{`0,System.Object}}[])">
+            <summary>
+                Поиск сущности по Id
+            </summary>
+            <param name="id">Id сущности</param>
+            <param name="cancellationToken"></param>
+            <param name="includesProperties">Делегаты для подключения навигационных свойств</param>
+            <returns></returns>
+        </member>
+        <member name="M:Senko_253505.Domain.Abstractions.IRepository`1.ListAllAsync(System.Threading.CancellationToken)">
+            <summary>
+                Получение всего списка сущностей
+            </summary>
+            <param name="cancellationToken"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Senko_253505.Domain.Abstractions.IRepository`1.ListAsync(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}},System.Threading.CancellationToken,System.Linq.Expressions.Expression{System.Func{`0,System.Object}}[])">
+            <summary>
+                Получение отфильтрованного списка
+            </summary>
+            <param name="filter">Делегат-условие отбора</param>
+            <param name="cancellationToken"></param>
+            <param name="includesProperties">
+                Делегаты для
+                подключения навигационных свойств
+            </param>
+            <returns></returns>
+        </member>
+        <member name="M:Senko_253505.Domain.Abstractions.IRepository`1.AddAsync(`0,System.Threading.CancellationToken)">
+            <summary>
+                Добавление новой сущности
+            </summary>
+            <param name="entity"></param>
+            <param name="cancellationToken"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Senko_253505.Domain.Abstractions.IRepository`1.UpdateAsync(`0,System.Threading.CancellationToken)">
+            <summary>
+                Изменение сущности
+            </summary>
+            <param name="entity">Сущность с измененным содержимым</param>
+            <param name="cancellationToken"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Senko_253505.Domain.Abstractions.IRepository`1.DeleteAsync(`0,System.Threading.CancellationToken)">
+            <summary>
+                Удаление сущности
+            </summary>
+            <param name="entity">Сущность, которую следует удалить</param>
+            <param name="cancellationToken"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Senko_253505.Domain.Abstractions.IRepository`1.FirstOrDefaultAsync(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}},System.Threading.CancellationToken)">
+            <summary>
+                Поиск первой сущности, удовлетворяющей условию отбора.
+                Если сущность не найдена, будет возвращено значение по умолчанию
+            </summary>
+            <param name="filter">Делегат-условие отбора</param>
+            <param name="cancellationToken"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

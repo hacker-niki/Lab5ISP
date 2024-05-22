@@ -1,0 +1,65 @@
+is_global = true
+build_property.TargetFramework = net7.0-windows10.0.19041.0
+build_property.TargetPlatformMinVersion = 10.0.17763.0
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 9A19103F-16F7-4668-BE54-9A1E7A4F7556
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Senko_253505.UI
+build_property.ProjectDir = C:\Users\user\RiderProjects\Senko_253505\Senko_253505.UI\
+
+[C:/Users/user/RiderProjects/Senko_253505/Senko_253505.UI/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Senko_253505.UI.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/user/RiderProjects/Senko_253505/Senko_253505.UI/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Senko_253505.UI.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/user/RiderProjects/Senko_253505/Senko_253505.UI/Pages/AddOrUpdateCarPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Senko_253505.UI.Pages.AddOrUpdateCarPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\AddOrUpdateCarPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\AddOrUpdateCarPage.xaml
+
+[C:/Users/user/RiderProjects/Senko_253505/Senko_253505.UI/Pages/AddOrUpdateCompanyPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Senko_253505.UI.Pages.AddOrUpdateCompanyPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\AddOrUpdateCompanyPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\AddOrUpdateCompanyPage.xaml
+
+[C:/Users/user/RiderProjects/Senko_253505/Senko_253505.UI/Pages/CarDetailsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Senko_253505.UI.Pages.CarDetailsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\CarDetailsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\CarDetailsPage.xaml
+
+[C:/Users/user/RiderProjects/Senko_253505/Senko_253505.UI/Pages/CompaniesPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Senko_253505.UI.Pages.CompaniesPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\CompaniesPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\CompaniesPage.xaml
+
+[C:/Users/user/RiderProjects/Senko_253505/Senko_253505.UI/Pages/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Senko_253505.UI.Pages.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\MainPage.xaml
+
+[C:/Users/user/RiderProjects/Senko_253505/Senko_253505.UI/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Senko_253505.UI.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/user/RiderProjects/Senko_253505/Senko_253505.UI/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Senko_253505.UI.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml

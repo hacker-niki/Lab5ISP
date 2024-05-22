@@ -1,0 +1,405 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Senko_253505.UI</name>
+    </assembly>
+    <members>
+        <member name="T:Senko_253505.UI.Pages.MainPage">
+            <inheritdoc/>
+        </member>
+        <member name="F:Senko_253505.UI.Pages.MainPage.showDetailsCommand">
+            <summary>The backing field for <see cref="P:Senko_253505.UI.Pages.MainPage.ShowDetailsCommand"/>.</summary>
+        </member>
+        <member name="P:Senko_253505.UI.Pages.MainPage.ShowDetailsCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:Senko_253505.UI.Pages.MainPage.ShowDetails"/>.</summary>
+        </member>
+        <member name="T:Senko_253505.UI.ViewModels.AddOrUpdateCarViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:Senko_253505.UI.ViewModels.AddOrUpdateCarViewModel.ErrText">
+            <inheritdoc cref="F:Senko_253505.UI.ViewModels.AddOrUpdateCarViewModel.errText"/>
+        </member>
+        <member name="P:Senko_253505.UI.ViewModels.AddOrUpdateCarViewModel.ImageSrc">
+            <inheritdoc cref="F:Senko_253505.UI.ViewModels.AddOrUpdateCarViewModel.imageSrc"/>
+        </member>
+        <member name="P:Senko_253505.UI.ViewModels.AddOrUpdateCarViewModel.Image">
+            <inheritdoc cref="F:Senko_253505.UI.ViewModels.AddOrUpdateCarViewModel.image"/>
+        </member>
+        <member name="P:Senko_253505.UI.ViewModels.AddOrUpdateCarViewModel.Request">
+            <inheritdoc cref="F:Senko_253505.UI.ViewModels.AddOrUpdateCarViewModel.request"/>
+        </member>
+        <member name="P:Senko_253505.UI.ViewModels.AddOrUpdateCarViewModel.Company">
+            <inheritdoc cref="F:Senko_253505.UI.ViewModels.AddOrUpdateCarViewModel.company"/>
+        </member>
+        <member name="P:Senko_253505.UI.ViewModels.AddOrUpdateCarViewModel.Date">
+            <inheritdoc cref="F:Senko_253505.UI.ViewModels.AddOrUpdateCarViewModel.date"/>
+        </member>
+        <member name="P:Senko_253505.UI.ViewModels.AddOrUpdateCarViewModel.SelectedCompany">
+            <inheritdoc cref="F:Senko_253505.UI.ViewModels.AddOrUpdateCarViewModel.selectedCompany"/>
+        </member>
+        <member name="F:Senko_253505.UI.ViewModels.AddOrUpdateCarViewModel.selectImageCommand">
+            <summary>The backing field for <see cref="P:Senko_253505.UI.ViewModels.AddOrUpdateCarViewModel.SelectImageCommand"/>.</summary>
+        </member>
+        <member name="P:Senko_253505.UI.ViewModels.AddOrUpdateCarViewModel.SelectImageCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:Senko_253505.UI.ViewModels.AddOrUpdateCarViewModel.SelectImage"/>.</summary>
+        </member>
+        <member name="F:Senko_253505.UI.ViewModels.AddOrUpdateCarViewModel.addOrUpdateCarCommand">
+            <summary>The backing field for <see cref="P:Senko_253505.UI.ViewModels.AddOrUpdateCarViewModel.AddOrUpdateCarCommand"/>.</summary>
+        </member>
+        <member name="P:Senko_253505.UI.ViewModels.AddOrUpdateCarViewModel.AddOrUpdateCarCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:Senko_253505.UI.ViewModels.AddOrUpdateCarViewModel.AddOrUpdateCar"/>.</summary>
+        </member>
+        <member name="F:Senko_253505.UI.ViewModels.AddOrUpdateCarViewModel.updateCompaniesListCommand">
+            <summary>The backing field for <see cref="P:Senko_253505.UI.ViewModels.AddOrUpdateCarViewModel.UpdateCompaniesListCommand"/>.</summary>
+        </member>
+        <member name="P:Senko_253505.UI.ViewModels.AddOrUpdateCarViewModel.UpdateCompaniesListCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:Senko_253505.UI.ViewModels.AddOrUpdateCarViewModel.UpdateCompaniesList"/>.</summary>
+        </member>
+        <member name="T:Senko_253505.UI.ViewModels.AddOrUpdateCompanyViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:Senko_253505.UI.ViewModels.AddOrUpdateCompanyViewModel.ErrText">
+            <inheritdoc cref="F:Senko_253505.UI.ViewModels.AddOrUpdateCompanyViewModel.errText"/>
+        </member>
+        <member name="P:Senko_253505.UI.ViewModels.AddOrUpdateCompanyViewModel.ImageSrc">
+            <inheritdoc cref="F:Senko_253505.UI.ViewModels.AddOrUpdateCompanyViewModel.imageSrc"/>
+        </member>
+        <member name="P:Senko_253505.UI.ViewModels.AddOrUpdateCompanyViewModel.Company">
+            <inheritdoc cref="F:Senko_253505.UI.ViewModels.AddOrUpdateCompanyViewModel.company"/>
+        </member>
+        <member name="P:Senko_253505.UI.ViewModels.AddOrUpdateCompanyViewModel.Image">
+            <inheritdoc cref="F:Senko_253505.UI.ViewModels.AddOrUpdateCompanyViewModel.image"/>
+        </member>
+        <member name="P:Senko_253505.UI.ViewModels.AddOrUpdateCompanyViewModel.Request">
+            <inheritdoc cref="F:Senko_253505.UI.ViewModels.AddOrUpdateCompanyViewModel.request"/>
+        </member>
+        <member name="F:Senko_253505.UI.ViewModels.AddOrUpdateCompanyViewModel.selectImageCommand">
+            <summary>The backing field for <see cref="P:Senko_253505.UI.ViewModels.AddOrUpdateCompanyViewModel.SelectImageCommand"/>.</summary>
+        </member>
+        <member name="P:Senko_253505.UI.ViewModels.AddOrUpdateCompanyViewModel.SelectImageCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:Senko_253505.UI.ViewModels.AddOrUpdateCompanyViewModel.SelectImage"/>.</summary>
+        </member>
+        <member name="F:Senko_253505.UI.ViewModels.AddOrUpdateCompanyViewModel.addOrUpdateCompanyCommand">
+            <summary>The backing field for <see cref="P:Senko_253505.UI.ViewModels.AddOrUpdateCompanyViewModel.AddOrUpdateCompanyCommand"/>.</summary>
+        </member>
+        <member name="P:Senko_253505.UI.ViewModels.AddOrUpdateCompanyViewModel.AddOrUpdateCompanyCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:Senko_253505.UI.ViewModels.AddOrUpdateCompanyViewModel.AddOrUpdateCompany"/>.</summary>
+        </member>
+        <member name="F:Senko_253505.UI.ViewModels.AddOrUpdateCompanyViewModel.updateCompaniesListCommand">
+            <summary>The backing field for <see cref="P:Senko_253505.UI.ViewModels.AddOrUpdateCompanyViewModel.UpdateCompaniesListCommand"/>.</summary>
+        </member>
+        <member name="P:Senko_253505.UI.ViewModels.AddOrUpdateCompanyViewModel.UpdateCompaniesListCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:Senko_253505.UI.ViewModels.AddOrUpdateCompanyViewModel.UpdateCompaniesList"/>.</summary>
+        </member>
+        <member name="T:Senko_253505.UI.ViewModels.CarDetailsViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:Senko_253505.UI.ViewModels.CarDetailsViewModel.Car">
+            <inheritdoc cref="F:Senko_253505.UI.ViewModels.CarDetailsViewModel.car"/>
+        </member>
+        <member name="P:Senko_253505.UI.ViewModels.CarDetailsViewModel.Name">
+            <inheritdoc cref="F:Senko_253505.UI.ViewModels.CarDetailsViewModel.name"/>
+        </member>
+        <member name="P:Senko_253505.UI.ViewModels.CarDetailsViewModel.Date">
+            <inheritdoc cref="F:Senko_253505.UI.ViewModels.CarDetailsViewModel.date"/>
+        </member>
+        <member name="P:Senko_253505.UI.ViewModels.CarDetailsViewModel.Characteristic">
+            <inheritdoc cref="F:Senko_253505.UI.ViewModels.CarDetailsViewModel.characteristic"/>
+        </member>
+        <member name="P:Senko_253505.UI.ViewModels.CarDetailsViewModel.CarId">
+            <inheritdoc cref="F:Senko_253505.UI.ViewModels.CarDetailsViewModel.carId"/>
+        </member>
+        <member name="F:Senko_253505.UI.ViewModels.CarDetailsViewModel.getCarByIdCommand">
+            <summary>The backing field for <see cref="P:Senko_253505.UI.ViewModels.CarDetailsViewModel.GetCarByIdCommand"/>.</summary>
+        </member>
+        <member name="P:Senko_253505.UI.ViewModels.CarDetailsViewModel.GetCarByIdCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:Senko_253505.UI.ViewModels.CarDetailsViewModel.GetCarById"/>.</summary>
+        </member>
+        <member name="F:Senko_253505.UI.ViewModels.CarDetailsViewModel.updateCarCommand">
+            <summary>The backing field for <see cref="P:Senko_253505.UI.ViewModels.CarDetailsViewModel.UpdateCarCommand"/>.</summary>
+        </member>
+        <member name="P:Senko_253505.UI.ViewModels.CarDetailsViewModel.UpdateCarCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:Senko_253505.UI.ViewModels.CarDetailsViewModel.UpdateCar"/>.</summary>
+        </member>
+        <member name="F:Senko_253505.UI.ViewModels.CarDetailsViewModel.deleteCarCommand">
+            <summary>The backing field for <see cref="P:Senko_253505.UI.ViewModels.CarDetailsViewModel.DeleteCarCommand"/>.</summary>
+        </member>
+        <member name="P:Senko_253505.UI.ViewModels.CarDetailsViewModel.DeleteCarCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:Senko_253505.UI.ViewModels.CarDetailsViewModel.DeleteCar"/>.</summary>
+        </member>
+        <member name="T:Senko_253505.UI.ViewModels.CompaniesViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:Senko_253505.UI.ViewModels.CompaniesViewModel.CarsCount">
+            <inheritdoc cref="F:Senko_253505.UI.ViewModels.CompaniesViewModel.carsCount"/>
+        </member>
+        <member name="P:Senko_253505.UI.ViewModels.CompaniesViewModel.ErrorText">
+            <inheritdoc cref="F:Senko_253505.UI.ViewModels.CompaniesViewModel.errorText"/>
+        </member>
+        <member name="P:Senko_253505.UI.ViewModels.CompaniesViewModel.SelectedCar">
+            <inheritdoc cref="F:Senko_253505.UI.ViewModels.CompaniesViewModel.selectedCar"/>
+        </member>
+        <member name="P:Senko_253505.UI.ViewModels.CompaniesViewModel.SelectedTransportCompany">
+            <inheritdoc cref="F:Senko_253505.UI.ViewModels.CompaniesViewModel.selectedTransportCompany"/>
+        </member>
+        <member name="F:Senko_253505.UI.ViewModels.CompaniesViewModel.updateTransportCompanyListCommand">
+            <summary>The backing field for <see cref="P:Senko_253505.UI.ViewModels.CompaniesViewModel.UpdateTransportCompanyListCommand"/>.</summary>
+        </member>
+        <member name="P:Senko_253505.UI.ViewModels.CompaniesViewModel.UpdateTransportCompanyListCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:Senko_253505.UI.ViewModels.CompaniesViewModel.UpdateTransportCompanyList"/>.</summary>
+        </member>
+        <member name="F:Senko_253505.UI.ViewModels.CompaniesViewModel.updateCarsListCommand">
+            <summary>The backing field for <see cref="P:Senko_253505.UI.ViewModels.CompaniesViewModel.UpdateCarsListCommand"/>.</summary>
+        </member>
+        <member name="P:Senko_253505.UI.ViewModels.CompaniesViewModel.UpdateCarsListCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:Senko_253505.UI.ViewModels.CompaniesViewModel.UpdateCarsList"/>.</summary>
+        </member>
+        <member name="F:Senko_253505.UI.ViewModels.CompaniesViewModel.showDetailsCommand">
+            <summary>The backing field for <see cref="P:Senko_253505.UI.ViewModels.CompaniesViewModel.ShowDetailsCommand"/>.</summary>
+        </member>
+        <member name="P:Senko_253505.UI.ViewModels.CompaniesViewModel.ShowDetailsCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:Senko_253505.UI.ViewModels.CompaniesViewModel.ShowDetails(Senko_253505.Domain.Entities.Car)"/>.</summary>
+        </member>
+        <member name="F:Senko_253505.UI.ViewModels.CompaniesViewModel.addTransportCompanyCommand">
+            <summary>The backing field for <see cref="P:Senko_253505.UI.ViewModels.CompaniesViewModel.AddTransportCompanyCommand"/>.</summary>
+        </member>
+        <member name="P:Senko_253505.UI.ViewModels.CompaniesViewModel.AddTransportCompanyCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:Senko_253505.UI.ViewModels.CompaniesViewModel.AddTransportCompany"/>.</summary>
+        </member>
+        <member name="F:Senko_253505.UI.ViewModels.CompaniesViewModel.updateTransportCompanyCommand">
+            <summary>The backing field for <see cref="P:Senko_253505.UI.ViewModels.CompaniesViewModel.UpdateTransportCompanyCommand"/>.</summary>
+        </member>
+        <member name="P:Senko_253505.UI.ViewModels.CompaniesViewModel.UpdateTransportCompanyCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:Senko_253505.UI.ViewModels.CompaniesViewModel.UpdateTransportCompany"/>.</summary>
+        </member>
+        <member name="F:Senko_253505.UI.ViewModels.CompaniesViewModel.addCarCommand">
+            <summary>The backing field for <see cref="P:Senko_253505.UI.ViewModels.CompaniesViewModel.AddCarCommand"/>.</summary>
+        </member>
+        <member name="P:Senko_253505.UI.ViewModels.CompaniesViewModel.AddCarCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:Senko_253505.UI.ViewModels.CompaniesViewModel.AddCar"/>.</summary>
+        </member>
+        <member name="F:Senko_253505.UI.ViewModels.CompaniesViewModel.deleteTransportCompanyCommand">
+            <summary>The backing field for <see cref="P:Senko_253505.UI.ViewModels.CompaniesViewModel.DeleteTransportCompanyCommand"/>.</summary>
+        </member>
+        <member name="P:Senko_253505.UI.ViewModels.CompaniesViewModel.DeleteTransportCompanyCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:Senko_253505.UI.ViewModels.CompaniesViewModel.DeleteTransportCompany"/>.</summary>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_Button.TextColorTo(Microsoft.Maui.Controls.Button,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_DatePicker.TextColorTo(Microsoft.Maui.Controls.DatePicker,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_Editor.TextColorTo(Microsoft.Maui.Controls.Editor,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_Entry.TextColorTo(Microsoft.Maui.Controls.Entry,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_Label.TextColorTo(Microsoft.Maui.Controls.Label,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_Picker.TextColorTo(Microsoft.Maui.Controls.Picker,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_RadioButton.TextColorTo(Microsoft.Maui.Controls.RadioButton,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_SearchBar.TextColorTo(Microsoft.Maui.Controls.SearchBar,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_TimePicker.TextColorTo(Microsoft.Maui.Controls.TimePicker,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.ErrText">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "ErrText" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.ImageSrc">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "ImageSrc" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Image">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Image" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Request">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Request" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Company">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Company" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Date">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Date" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.SelectedCompany">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "SelectedCompany" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Car">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Car" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Name">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Name" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Characteristic">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Characteristic" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.CarId">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "CarId" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.CarsCount">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "CarsCount" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.ErrorText">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "ErrorText" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.SelectedCar">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "SelectedCar" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.SelectedTransportCompany">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "SelectedTransportCompany" generated properties.</summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.ErrText">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "ErrText" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.ImageSrc">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "ImageSrc" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Image">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Image" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Request">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Request" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Company">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Company" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Date">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Date" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.SelectedCompany">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "SelectedCompany" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Car">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Car" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Name">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Name" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Characteristic">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Characteristic" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.CarId">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "CarId" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.CarsCount">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "CarsCount" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.ErrorText">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "ErrorText" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.SelectedCar">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "SelectedCar" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.SelectedTransportCompany">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "SelectedTransportCompany" generated properties.</summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,15 @@
+C:\Users\user\RiderProjects\Senko_253505\Senko_253505.Application\bin\Debug\net7.0-windows10.0.19041.0\Senko_253505.Application.deps.json
+C:\Users\user\RiderProjects\Senko_253505\Senko_253505.Application\bin\Debug\net7.0-windows10.0.19041.0\Senko_253505.Application.dll
+C:\Users\user\RiderProjects\Senko_253505\Senko_253505.Application\bin\Debug\net7.0-windows10.0.19041.0\Senko_253505.Application.pdb
+C:\Users\user\RiderProjects\Senko_253505\Senko_253505.Application\bin\Debug\net7.0-windows10.0.19041.0\Senko_253505.Domain.dll
+C:\Users\user\RiderProjects\Senko_253505\Senko_253505.Application\bin\Debug\net7.0-windows10.0.19041.0\Senko_253505.Domain.pdb
+C:\Users\user\RiderProjects\Senko_253505\Senko_253505.Application\obj\Debug\net7.0-windows10.0.19041.0\Senko_253505.Application.csproj.AssemblyReference.cache
+C:\Users\user\RiderProjects\Senko_253505\Senko_253505.Application\obj\Debug\net7.0-windows10.0.19041.0\Senko_253505.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\RiderProjects\Senko_253505\Senko_253505.Application\obj\Debug\net7.0-windows10.0.19041.0\Senko_253505.Application.AssemblyInfoInputs.cache
+C:\Users\user\RiderProjects\Senko_253505\Senko_253505.Application\obj\Debug\net7.0-windows10.0.19041.0\Senko_253505.Application.AssemblyInfo.cs
+C:\Users\user\RiderProjects\Senko_253505\Senko_253505.Application\obj\Debug\net7.0-windows10.0.19041.0\Senko_253505.Application.csproj.CoreCompileInputs.cache
+C:\Users\user\RiderProjects\Senko_253505\Senko_253505.Application\obj\Debug\net7.0-windows10.0.19041.0\Senko_253505.Application.csproj.CopyComplete
+C:\Users\user\RiderProjects\Senko_253505\Senko_253505.Application\obj\Debug\net7.0-windows10.0.19041.0\Senko_253505.Application.dll
+C:\Users\user\RiderProjects\Senko_253505\Senko_253505.Application\obj\Debug\net7.0-windows10.0.19041.0\refint\Senko_253505.Application.dll
+C:\Users\user\RiderProjects\Senko_253505\Senko_253505.Application\obj\Debug\net7.0-windows10.0.19041.0\Senko_253505.Application.pdb
+C:\Users\user\RiderProjects\Senko_253505\Senko_253505.Application\obj\Debug\net7.0-windows10.0.19041.0\ref\Senko_253505.Application.dll

@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             xmlns:viewModels="clr-namespace:Senko_253505.UI.ViewModels"
+             x:DataType="viewModels:CarDetailsViewModel"
+             Title="Car details"
+             x:Class="Senko_253505.UI.Pages.CarDetailsPage">
+    <!-- <ContentPage.Resources> -->
+    <!--     <converters:IdToImageSourceConverter x:Key="IdToImageSource"/> -->
+    <!-- </ContentPage.Resources> -->
+
+    <ContentPage.Behaviors>
+        <toolkit:EventToCommandBehavior EventName="Appearing"
+                                        Command="{Binding GetCarByIdCommand}" />
+    </ContentPage.Behaviors>
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Edit" Command="{Binding UpdateCarCommand}"></ToolbarItem>
+        <ToolbarItem Text="Delete" Command="{Binding DeleteCarCommand}"></ToolbarItem>
+    </ContentPage.ToolbarItems>
+
+    <VerticalStackLayout Margin="10" Spacing="15">
+
+        <!-- <Image -->
+        <!--     Aspect="AspectFill" -->
+        <!--     HeightRequest="70" -->
+        <!--     WidthRequest="70" -->
+        <!--     Source="{Binding SongId, Converter={StaticResource IdToImageSource}}"></Image> -->
+
+        <Frame HorizontalOptions="Center" VerticalOptions="Center" BackgroundColor="Aqua">
+            <VerticalStackLayout>
+                <HorizontalStackLayout Spacing="10" HorizontalOptions="Center">
+                    <Label Text="Name:" />
+                    <Label Text="{Binding Name}" />
+                </HorizontalStackLayout>
+                
+                <HorizontalStackLayout Spacing="10" HorizontalOptions="Center">
+                    <Label Text="Model:" />
+                    <Label Text="{Binding Characteristic.Model}" />
+                </HorizontalStackLayout>
+                
+                <HorizontalStackLayout Spacing="10" HorizontalOptions="Center">
+                    <Label Text="Year:" />
+                    <Label Text="{Binding Characteristic.Year}" />
+                </HorizontalStackLayout>
+
+                <HorizontalStackLayout Spacing="10" HorizontalOptions="Center">
+                    <Label Text="Мощность:" />
+                    <Label Text="{Binding Characteristic.Horsepower}" />
+                </HorizontalStackLayout>
+                
+                <HorizontalStackLayout Spacing="10" HorizontalOptions="Center">
+                    <Label Text="Год выпуска:" />
+                    <Label Text="{Binding Characteristic.Year}" />
+                </HorizontalStackLayout>
+
+                <HorizontalStackLayout Spacing="10" HorizontalOptions="Center">
+                    <Label Text="Дата регистрации:" />
+                    <Label Text="{Binding Date}" />
+                </HorizontalStackLayout>
+
+
+            </VerticalStackLayout>
+        </Frame>
+
+    </VerticalStackLayout>
+</ContentPage>
